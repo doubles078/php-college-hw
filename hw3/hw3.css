@@ -1,0 +1,21 @@
+#box{
+	height:100px;
+	width:300px;
+	text-align:right;
+}
+
+
+#radios{
+	height:100px;
+	width:300px;
+	margin-top:-50px;
+	text-align:right;
+}
+
+
+#buttons{
+	height:100px;
+	width:300px;
+	text-align:left;
+	margin-top:15px;
+}

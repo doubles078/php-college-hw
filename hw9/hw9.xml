@@ -1,0 +1,131 @@
+<cafeburrito>
+	<contact>
+		<days>
+			<Monday>
+				<open>6:00 AM</open>
+				<closed>8:00 PM</closed>
+			</Monday>
+			<Tuesday>
+				<open>6:00 AM</open>
+				<closed>8:00 PM</closed>
+			</Tuesday>
+			<Wednesday>
+				<open>6:00 AM</open>
+				<closed>8:00 PM</closed>
+			</Wednesday>
+			<Thursday>
+				<open>6:00 AM</open>
+				<closed>8:00 PM</closed>
+			</Thursday>
+			<Friday>
+				<open>6:00 AM</open>
+				<closed>8:00 PM</closed>
+			</Friday>
+			<Saturday>
+				<open>6:30 AM</open>
+				<closed>10:00 PM</closed>
+			</Saturday>
+			<Sunday>
+				<open>6:30 AM</open>
+				<closed>8:00 PM</closed>
+			</Sunday>
+		</days>
+		<phone>
+			<number>617-855-MEAL (6325)</number>
+		</phone>
+		<fax>
+			<number>617-855-6300</number>
+		</fax>
+		<address>
+			<road>374 Trapelo Road</road>
+			<city>Belmont</city>
+			<state>MA</state>
+			<zipcode>02478</zipcode>
+		</address>
+		
+	</contact>
+	
+	<menu>
+		<entrees>
+			<entree>Super Burrito</entree>
+				<price>6.75</price>
+			<entree>Naked Burrito</entree>
+				<price>6.50</price>
+			<entree>Quesadilla</entree>
+				<price>6.50</price>
+			<entree>Taco</entree>
+				<price>3.25</price>
+			<entree>Taco Salad</entree>
+				<price>7.50</price>
+		</entrees>
+	
+		<rices>
+			<rice>Basmati White</rice>
+			<rice>Basmati Brown</rice>
+		</rices>
+	
+		<beans>
+			<bean>Pinto</bean>
+			<bean>Black</bean>
+			<bean>Refried</bean>
+		</beans>
+	
+		<fillings>
+			<filling>Carne de Casa</filling>
+			<filling>Carnitas</filling>
+			<filling>Pulled BBQ Chicken Pork</filling>
+			<filling>Roasted Chili Lime Chicken</filling>
+			<filling>Roasted Veggies</filling>
+		</fillings>
+	
+		<cheeses>
+			<cheese>Chihuahua</cheese>
+			<cheese>Cheddar</cheese>
+			<cheese>Cotija</cheese>
+		</cheeses>
+	
+		<extras>
+			<extra>Corn Salad (mild)</extra>
+			<extra>Gentlemen Dan's Salsa de Casa (medium)</extra>
+			<extra>Chipotle Salsa (hot)</extra>
+			<extra>Seasonal Fruit Salad (medium)</extra>
+			<extra>Pico de Gallo (mild)</extra>
+			<extra>Guacamole</extra>
+			<extra>Jalapeños</extra>
+			<extra>Lettuce</extra>
+			<extra>Pickled Veggies</extra>
+			<extra>Sour Cream</extra>
+		</extras>
+	</menu>
+	<!--
+<contact>
+    <days> (of the work week)
+    	<dayoftheweek>
+    		<timeopen></timeopen>
+    		<timeclosed></timeclosed>
+    	</dayoftheweek>
+    </days>
+    <phone>
+    	<number></number>
+    </phone>
+	 <fax>
+    	<number></number>
+    </fax>
+    <address>
+		<road></road>
+		<city></city>
+		<state></state>
+		<zipcode></zipcode>
+	</address>
+</contact>
+
+<menu>
+    <foodgroup>
+    	<iteminfoodgroup>
+    		<price></price>
+    	</iteminfoodgroup>
+    </foodgroup>
+</menu>
+-->
+
+</cafeburrito>

@@ -1,0 +1,44 @@
+Daniel Donohue
+
+1. SELECT * FROM `countries` WHERE CountryName = 'Kiribati'
+
+2. Swaziland, Botswana, Lesotho, Angola, Zimbabwe
+
+*** Not including Nulls
+
+SELECT CountryName, LifeExpectancyAtBirth FROM `countries` order by LifeExpectancyAtBirth
+
+3. Andorra, Macau, Singapore, San Marino, Hong Kong
+
+SELECT CountryName, LifeExpectancyAtBirth FROM `countries` order by LifeExpectancyAtBirth Desc
+
+4. 36
+
+SELECT CountryName, GDPGrowthPercent FROM `countries` WHERE `GDPGrowthPercent` >= 2.5 and `GDPGrowthPercent` <= 3.5
+
+5. 3
+
+SELECT CountryName FROM `countries` WHERE `InternetHosts` > `InternetUsers`
+
+6. 30
+
+SELECT CountryName FROM `countries` WHERE `Languages` LIKE '%arabic%'
+
+7. SELECT Continent, COUNT(CountryName) AS "ContinentList" FROM `countries` group by Continent
+
+8. SELECT CountryName, MAX(Population*POW((1+(PopulationGrowthRate/100)),25)) as "Pop" FROM `countries`
+
+9. SELECT CountryName, (Imports-Exports) AS "Deficit" FROM `countries` WHERE Imports-Exports IS NOT NULL order by 2 LIMIT 5
+
+10. SELECT CountryName, (Imports-Exports) AS "Deficit" FROM `countries` WHERE Imports-Exports IS NOT NULL order by 2 LIMIT 5,3
+
+11. 27.60
+
+SELECT AVG(MedianAge) as AvgAgeAllCountries FROM `countries`
+
+12. 1328374753000
+
+SELECT SUM(OilProvedReservesBbl) as WorldsOil FROM `countries` 
+
+13. SELECT SUM(OilProvedReservesBbl)-SUM(5*365*OilConsumptionBblPerDay) AS "Oil", (SUM(OilProvedReservesBbl)-SUM(5*365*OilConsumptionBblPerDay))/(SUM(OilConsumptionBblPerDay)*365) AS "Years Remaining" 
+FROM `countries`

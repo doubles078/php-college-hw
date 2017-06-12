@@ -1,0 +1,28 @@
+#box{
+	height:100px;
+	width:300px;
+	text-align:right;
+}
+
+
+#radios{
+	height:100px;
+	width:300px;
+	margin-top:-50px;
+	text-align:right;
+}
+
+
+#buttons{
+	height:35px;
+	width:150px;
+	text-align:center;
+	margin-left:150px;
+	background-color:maroon;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color:white;
+	webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}

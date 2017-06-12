@@ -1,0 +1,81 @@
+body{
+
+
+}
+
+legend{
+	background-color:#817339;
+	color:white;
+	font-weight:bold;
+
+
+}
+
+select{
+	color:white;
+	background-color:#7E3517;
+	height:40px;
+	width:200px;
+	font-size:20px;
+}
+
+#button{
+	position:relative;
+	bottom:-100px;
+	right:-650px;
+	color:white;
+	background-color:#7E3517;
+	height:40px;
+	width:200px;
+	font-size:20px;
+	
+}
+
+
+#extras{
+	background-color:#ECD672;
+	width:300px;
+	float:right;
+	margin-right:50px;
+}
+
+
+
+#rice{
+	background-color:#ECD672;
+	width:200px;
+
+
+}
+
+#beans{
+	background-color:#ECD672;
+	width:200px;
+}
+
+#cheese{
+	background-color:#ECD672;
+	width:200px;
+	margin-left:250px;
+	margin-top:-73px;
+}
+
+#filling{
+	background-color:#ECD672;
+	width:250px;
+	margin-left:250px;
+	margin-top:-200px;
+}
+
+#menu{
+	background-color:#C9C299;
+	width:900px;
+	height:300px;
+
+}
+
+
+#order{
+	background-color:#C9C299;
+	width:500px;
+}
